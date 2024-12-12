@@ -28,7 +28,7 @@
     <section
         class="overflow-hidden relative text-center mx-auto h-screen w-full max-w-lg flex items-center justify-center flex-col bg-cover bg-center"
         style="background-color: #FDF4EF; background-image: url(/gallery-6.jpg);"
-
+           
     >
         <div class="bg-slate-950/50 text-white h-full w-full text-center mx-auto h-screen w-full flex items-center justify-center flex-col" style="position: relative; z-index: 99;">
             <div class="mb-5" data-aos="zoom-in" data-aos-duration="3000">You Are Invited to <br>17<sup>th</sup>  Birthday Party of</div>
@@ -107,7 +107,7 @@
                 
                 <h2 class="font-latin text-4xl mb-4">Alamat</h2>
                 <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dolorum fuga quae hic nobis eveniet ipsum.</p>
-                <a href="#" target="_blank" rel="noopener noreferrer" class="inline-block mb-8 bg-rose-500 text-white py-3 px-6 rounded-xl hover:bg-rose-700">Buka Google Maps</a>
+                <a href="https://maps.app.goo.gl/iM3eiiEV1eJSRqPK9" target="_blank" rel="noopener noreferrer" class="inline-block mb-8 bg-rose-500 text-white py-3 px-6 rounded-xl hover:bg-rose-700">Buka Google Maps</a>
 
                 <h2 class="font-latin text-4xl mb-4">Dresscode</h2>
                 <p class="text-xl font-bold">Purple</p>
@@ -134,7 +134,9 @@
             </div>
         </section>
 
+    
         <section class="px-6 py-12 w-full min-h-[40rem] text-center flex flex-col justify-center items-center">
+            <h2 class="font-latin text-4xl mb-4">Closing</h2>
             <p class="mx-auto max-w-80 mb-8">I want to thank you for sharing in my birthday celebration. I look forward to our future together and making many more memories with you.</p>
             <p class="mx-auto italic">Best Regards</p>
             <p class="mx-auto text-2xl font-accent">AYA HUMAIRA DESTIANA</p>
@@ -155,14 +157,6 @@
     invContent.classList.remove('hidden');
     lagu.play();
  });
-
- document.getElementById('btnGoogleMaps').addEventListener('click', function (e) {
-    e.preventDefault(); 
-    const lat = -6.200000; 
-    const lng = 106.816666;
-    const googleMapsUrl = ('https://maps.app.goo.gl/iM3eiiEV1eJSRqPK9')
-    window.open(googleMapsUrl, '_blank');
-});
 
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 1, 2025 15:37:25").getTime();
